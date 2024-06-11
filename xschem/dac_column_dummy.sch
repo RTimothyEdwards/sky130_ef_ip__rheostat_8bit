@@ -443,18 +443,18 @@ C {passtrans.sym} 480 -2290 0 0 {name=x7}
 C {passtrans.sym} 480 -2400 0 0 {name=x8}
 C {passtrans.sym} 480 -2550 0 0 {name=x9}
 C {passtrans.sym} 480 -1460 0 0 {name=x10}
-C {devices/ipin.sym} 60 -2470 0 0 {name=p1 lab=res_in}
-C {devices/ipin.sym} 40 -1470 0 0 {name=p3 lab=vss}
-C {devices/ipin.sym} 60 -2730 0 0 {name=p4 lab=vdd}
+C {devices/iopin.sym} 60 -2470 0 1 {name=p1 lab=res_in}
+C {devices/iopin.sym} 40 -1470 0 1 {name=p3 lab=vss}
+C {devices/iopin.sym} 60 -2730 0 1 {name=p4 lab=vdd}
 C {passtrans.sym} 940 -2270 0 0 {name=x11}
 C {passtrans.sym} 930 -2110 0 0 {name=x12}
 C {passtrans.sym} 930 -1950 0 0 {name=x13}
 C {passtrans.sym} 930 -1790 0 0 {name=x14}
 C {passtrans.sym} 940 -2580 0 0 {name=x15}
 C {passtrans.sym} 930 -1630 0 0 {name=x16}
-C {devices/ipin.sym} 60 -2680 0 0 {name=p12 lab=dum_in}
-C {devices/opin.sym} 80 -1550 2 0 {name=p2 lab=res_out}
-C {devices/opin.sym} 40 -1360 2 0 {name=p13 lab=dum_out}
+C {devices/iopin.sym} 60 -2680 0 1 {name=p12 lab=dum_in}
+C {devices/iopin.sym} 80 -1550 2 0 {name=p2 lab=res_out}
+C {devices/iopin.sym} 40 -1360 2 0 {name=p13 lab=dum_out}
 C {passtrans.sym} 480 -2660 0 0 {name=x17}
 C {passtrans.sym} 480 -1330 0 0 {name=x18}
 C {passtrans.sym} 940 -2430 0 0 {name=x19}
