@@ -49,8 +49,6 @@ N 660 -2440 660 -2330 {
 lab=#net11}
 N 630 -2440 660 -2440 {
 lab=#net11}
-N 620 -1500 680 -1500 {
-lab=#net12}
 N 80 -2470 130 -2470 {
 lab=res_in}
 N 80 -1550 130 -1550 {
@@ -180,17 +178,17 @@ lab=vss}
 N 310 -2570 330 -2570 {
 lab=vdd}
 N 1080 -1780 1140 -1780 {
-lab=#net13}
+lab=#net12}
 N 1080 -1990 1140 -1990 {
-lab=#net13}
+lab=#net12}
 N 1140 -1990 1140 -1780 {
-lab=#net13}
+lab=#net12}
 N 1080 -2200 1150 -2200 {
-lab=#net14}
+lab=#net13}
 N 1150 -2420 1150 -2200 {
-lab=#net14}
+lab=#net13}
 N 1090 -2420 1150 -2420 {
-lab=#net14}
+lab=#net13}
 N 1550 -2340 1630 -2340 {
 lab=out}
 N 1550 -1930 1630 -1930 {
@@ -252,9 +250,9 @@ lab=#net10}
 N 660 -2380 790 -2380 {
 lab=#net11}
 N 1150 -2300 1250 -2300 {
-lab=#net14}
-N 1140 -1890 1250 -1890 {
 lab=#net13}
+N 1140 -1890 1250 -1890 {
+lab=#net12}
 N 270 -1650 330 -1650 {
 lab=b0}
 N 270 -1720 330 -1720 {
@@ -332,9 +330,9 @@ lab=b2}
 N 60 -2770 250 -2770 {
 lab=b0b}
 N 630 -2700 680 -2700 {
-lab=#net15}
+lab=#net14}
 N 630 -1370 680 -1370 {
-lab=#net12}
+lab=#net15}
 N 300 -1390 300 -1290 {
 lab=vss}
 N 300 -1290 330 -1290 {
@@ -348,7 +346,7 @@ lab=vdd}
 N 310 -1350 330 -1350 {
 lab=vdd}
 N 240 -1330 330 -1330 {
-lab=#net12}
+lab=#net15}
 N 300 -1310 330 -1310 {
 lab=vss}
 N 250 -2770 250 -1610 {
@@ -372,27 +370,29 @@ lab=dum_in}
 N 130 -2620 280 -2620 {
 lab=dum_in}
 N 220 -2660 330 -2660 {
-lab=#net15}
+lab=#net14}
 N 240 -1330 240 -1250 {
-lab=#net12}
+lab=#net15}
 N 240 -1250 680 -1250 {
-lab=#net12}
+lab=#net15}
 N 680 -1370 680 -1250 {
-lab=#net12}
+lab=#net15}
 N 220 -2750 680 -2750 {
-lab=#net15}
+lab=#net14}
 N 220 -2750 220 -2660 {
-lab=#net15}
+lab=#net14}
 N 310 -1480 330 -1480 {
 lab=vdd}
 N 300 -1440 330 -1440 {
 lab=vss}
 N 630 -2590 680 -2590 {
-lab=#net15}
+lab=#net14}
 N 680 -2750 680 -2590 {
-lab=#net15}
+lab=#net14}
 N 680 -1500 680 -1370 {
-lab=#net12}
+lab=#net15}
+N 630 -1500 680 -1500 {
+lab=#net15}
 C {passtrans.sym} 480 -1630 0 0 {name=x1}
 C {passtrans.sym} 480 -1740 0 0 {name=x2}
 C {passtrans.sym} 480 -1850 0 0 {name=x3}
@@ -403,25 +403,25 @@ C {passtrans.sym} 480 -2290 0 0 {name=x7}
 C {passtrans.sym} 480 -2400 0 0 {name=x8}
 C {passtrans.sym} 480 -2550 0 0 {name=x9}
 C {passtrans.sym} 480 -1460 0 0 {name=x10}
-C {devices/ipin.sym} 60 -2470 0 0 {name=p1 lab=res_in}
-C {devices/ipin.sym} 40 -1470 0 0 {name=p3 lab=vss}
-C {devices/ipin.sym} 60 -2730 0 0 {name=p4 lab=vdd}
+C {devices/iopin.sym} 60 -2470 0 1 {name=p1 lab=res_in}
+C {devices/iopin.sym} 40 -1470 0 1 {name=p3 lab=vss}
+C {devices/iopin.sym} 60 -2730 0 1 {name=p4 lab=vdd}
 C {passtrans.sym} 940 -2380 0 0 {name=x11}
 C {passtrans.sym} 930 -2160 0 0 {name=x12}
 C {passtrans.sym} 930 -1950 0 0 {name=x13}
 C {passtrans.sym} 930 -1740 0 0 {name=x14}
 C {passtrans.sym} 1400 -2300 0 0 {name=x15}
 C {passtrans.sym} 1400 -1890 0 0 {name=x16}
-C {devices/opin.sym} 1720 -2340 0 0 {name=p5 lab=out}
+C {devices/iopin.sym} 1720 -2340 0 0 {name=p5 lab=out}
 C {devices/ipin.sym} 60 -2790 0 0 {name=p6 lab=b0}
 C {devices/ipin.sym} 60 -2770 0 0 {name=p7 lab=b0b}
 C {devices/ipin.sym} 60 -2810 0 0 {name=p8 lab=b1}
 C {devices/ipin.sym} 60 -2830 0 0 {name=p9 lab=b1b}
 C {devices/ipin.sym} 60 -2850 0 0 {name=p10 lab=b2}
 C {devices/ipin.sym} 60 -2870 0 0 {name=p11 lab=b2b}
-C {devices/ipin.sym} 60 -2680 0 0 {name=p12 lab=dum_in}
-C {devices/opin.sym} 80 -1550 2 0 {name=p2 lab=res_out}
-C {devices/opin.sym} 40 -1360 2 0 {name=p13 lab=dum_out}
+C {devices/iopin.sym} 60 -2680 0 1 {name=p12 lab=dum_in}
+C {devices/iopin.sym} 80 -1550 2 0 {name=p2 lab=res_out}
+C {devices/iopin.sym} 40 -1360 2 0 {name=p13 lab=dum_out}
 C {passtrans.sym} 480 -2660 0 0 {name=x17}
 C {passtrans.sym} 480 -1330 0 0 {name=x18}
 C {sky130_fd_pr/res_generic_po.sym} 130 -2540 0 0 {name=R1
