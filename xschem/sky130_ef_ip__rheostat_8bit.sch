@@ -408,11 +408,11 @@ lab=vss}
 C {dac_half.sym} 150 -2730 0 0 {name=x1}
 C {dac_half.sym} 150 -2340 0 0 {name=x2}
 C {passtrans.sym} 690 -2690 0 0 {name=x3}
-C {devices/opin.sym} 1010 -2730 0 0 {name=p3 lab=out}
+C {devices/iopin.sym} 1010 -2730 0 0 {name=p3 lab=out}
 C {devices/ipin.sym} -340 -3240 0 0 {name=p4 lab=vss}
 C {devices/ipin.sym} -340 -3210 0 0 {name=p5 lab=vdd}
-C {devices/ipin.sym} 410 -2990 0 1 {name=p6 lab=Vhigh}
-C {devices/opin.sym} 420 -2210 0 0 {name=p7 lab=Vlow}
+C {devices/iopin.sym} 410 -2990 0 0 {name=p6 lab=Vhigh}
+C {devices/iopin.sym} 420 -2210 0 0 {name=p7 lab=Vlow}
 C {devices/lab_pin.sym} -390 -2950 0 0 {name=l7 sig_type=std_logic lab=b7a}
 C {devices/lab_pin.sym} -390 -2930 0 0 {name=l8 sig_type=std_logic lab=b7b}
 C {devices/lab_pin.sym} -390 -2450 0 0 {name=l10 sig_type=std_logic lab=b0b}
