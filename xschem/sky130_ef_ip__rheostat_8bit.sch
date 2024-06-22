@@ -405,8 +405,8 @@ N -70 -3070 -0 -3070 {
 lab=vss}
 N -70 -3240 -70 -1940 {
 lab=vss}
-C {dac_half.sym} 150 -2730 0 0 {name=x1}
-C {dac_half.sym} 150 -2340 0 0 {name=x2}
+C {rheo_half.sym} 150 -2730 0 0 {name=x1}
+C {rheo_half.sym} 150 -2340 0 0 {name=x2}
 C {passtrans.sym} 690 -2690 0 0 {name=x3}
 C {devices/iopin.sym} 1010 -2730 0 0 {name=p3 lab=out}
 C {devices/iopin.sym} -340 -3240 0 1 {name=p4 lab=vss}
@@ -426,14 +426,14 @@ C {devices/lab_pin.sym} -390 -2660 0 0 {name=l19 sig_type=std_logic lab=b5a}
 C {devices/lab_pin.sym} -390 -2640 0 0 {name=l20 sig_type=std_logic lab=b5b}
 C {devices/lab_pin.sym} -390 -2620 0 0 {name=l21 sig_type=std_logic lab=b6a}
 C {devices/lab_pin.sym} -390 -2600 0 0 {name=l22 sig_type=std_logic lab=b6b}
-C {level_shifter.sym} -760 -2420 0 0 {name=x7}
-C {level_shifter.sym} -760 -2520 0 0 {name=x8}
-C {level_shifter.sym} -760 -2620 0 0 {name=x9}
-C {level_shifter.sym} -760 -2720 0 0 {name=x10}
-C {level_shifter.sym} -760 -2820 0 0 {name=x11}
-C {level_shifter.sym} -760 -2920 0 0 {name=x12}
-C {level_shifter.sym} -760 -3020 0 0 {name=x13}
-C {level_shifter.sym} -760 -3120 0 0 {name=x14}
+C {rheo_level_shifter.sym} -760 -2420 0 0 {name=x7}
+C {rheo_level_shifter.sym} -760 -2520 0 0 {name=x8}
+C {rheo_level_shifter.sym} -760 -2620 0 0 {name=x9}
+C {rheo_level_shifter.sym} -760 -2720 0 0 {name=x10}
+C {rheo_level_shifter.sym} -760 -2820 0 0 {name=x11}
+C {rheo_level_shifter.sym} -760 -2920 0 0 {name=x12}
+C {rheo_level_shifter.sym} -760 -3020 0 0 {name=x13}
+C {rheo_level_shifter.sym} -760 -3120 0 0 {name=x14}
 C {devices/lab_pin.sym} -530 -3150 0 1 {name=l23 sig_type=std_logic lab=b0a}
 C {devices/lab_pin.sym} -530 -3130 0 1 {name=l24 sig_type=std_logic lab=b0b}
 C {devices/lab_pin.sym} -390 -2470 0 0 {name=l9 sig_type=std_logic lab=b0a}
@@ -465,7 +465,7 @@ C {devices/lab_pin.sym} -1050 -3150 0 0 {name=l39 sig_type=std_logic lab=vdd}
 C {devices/iopin.sym} -1030 -3250 0 1 {name=p15 lab=dvdd}
 C {devices/iopin.sym} -1030 -3220 0 1 {name=p16 lab=dvss}
 C {passtrans.sym} 690 -2470 0 0 {name=x15}
-C {dac_column_dummy.sym} 150 -2090 0 0 {name=x18}
-C {dac_column_dummy.sym} 150 -1970 0 0 {name=x5}
-C {dac_column_dummy.sym} 150 -3000 0 0 {name=x4}
-C {dac_column_dummy.sym} 150 -3100 0 0 {name=x16}
+C {rheo_column_dummy.sym} 150 -2090 0 0 {name=x18}
+C {rheo_column_dummy.sym} 150 -1970 0 0 {name=x5}
+C {rheo_column_dummy.sym} 150 -3000 0 0 {name=x4}
+C {rheo_column_dummy.sym} 150 -3100 0 0 {name=x16}

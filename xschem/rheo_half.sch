@@ -961,23 +961,23 @@ N 2580 -3570 2580 -3450 {
 lab=#net61}
 N 2550 -3570 2580 -3570 {
 lab=#net61}
-C {dac_column.sym} 450 -2300 0 0 {name=x1}
-C {dac_column.sym} 450 -2520 0 0 {name=x2}
-C {dac_column.sym} 450 -2740 0 0 {name=x3}
-C {dac_column.sym} 450 -2960 0 0 {name=x4}
-C {dac_column.sym} 450 -3180 0 0 {name=x5}
-C {dac_column.sym} 450 -3400 0 0 {name=x6}
-C {dac_column.sym} 450 -3620 0 0 {name=x7}
-C {dac_column.sym} 450 -3840 0 0 {name=x8}
+C {rheo_column.sym} 450 -2300 0 0 {name=x1}
+C {rheo_column.sym} 450 -2520 0 0 {name=x2}
+C {rheo_column.sym} 450 -2740 0 0 {name=x3}
+C {rheo_column.sym} 450 -2960 0 0 {name=x4}
+C {rheo_column.sym} 450 -3180 0 0 {name=x5}
+C {rheo_column.sym} 450 -3400 0 0 {name=x6}
+C {rheo_column.sym} 450 -3620 0 0 {name=x7}
+C {rheo_column.sym} 450 -3840 0 0 {name=x8}
 C {devices/iopin.sym} 560 -4010 0 1 {name=p2 lab=res_in}
-C {dac_column.sym} 450 -530 0 0 {name=x9}
-C {dac_column.sym} 450 -750 0 0 {name=x10}
-C {dac_column.sym} 450 -970 0 0 {name=x11}
-C {dac_column.sym} 450 -1190 0 0 {name=x12}
-C {dac_column.sym} 450 -1410 0 0 {name=x13}
-C {dac_column.sym} 450 -1630 0 0 {name=x14}
-C {dac_column.sym} 450 -1850 0 0 {name=x15}
-C {dac_column.sym} 450 -2070 0 0 {name=x16}
+C {rheo_column.sym} 450 -530 0 0 {name=x9}
+C {rheo_column.sym} 450 -750 0 0 {name=x10}
+C {rheo_column.sym} 450 -970 0 0 {name=x11}
+C {rheo_column.sym} 450 -1190 0 0 {name=x12}
+C {rheo_column.sym} 450 -1410 0 0 {name=x13}
+C {rheo_column.sym} 450 -1630 0 0 {name=x14}
+C {rheo_column.sym} 450 -1850 0 0 {name=x15}
+C {rheo_column.sym} 450 -2070 0 0 {name=x16}
 C {devices/iopin.sym} 740 -470 0 0 {name=p3 lab=res_out}
 C {passtrans.sym} 1360 -710 0 0 {name=x17}
 C {passtrans.sym} 1360 -1150 0 0 {name=x18}
