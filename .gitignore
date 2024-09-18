@@ -1,5 +1,4 @@
 cace/*spice
-cace/xschemrc
 cace/sky130_ef_ip__rheostat_8bit.sym
 cace/sky130_ef_ip__rheostat_8bit_out.txt
 ngspice/*
@@ -10,5 +9,4 @@ mag/*.res.ext
 mag/*.nodes
 mag/*.sim
 xschem/*.spice
-xschem/xschemrc
 .spiceinit
